@@ -1,0 +1,29 @@
+{
+  "name": "taponesfos-maidana",
+  "version": "1.0.0",
+  "description": "Proyecto destinado para la empresa Tapones FOS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss scss/estilosSass.scss css/estilosSass.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sejama/tapones_fos-Maidana.git"
+  },
+  "keywords": [
+    "Tapones",
+    "FOS"
+  ],
+  "author": "Sebastian Maidana",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sejama/tapones_fos-Maidana/issues"
+  },
+  "homepage": "https://github.com/sejama/tapones_fos-Maidana#readme",
+  "devDependencies": {
+    "node-sass": "^7.0.1",
+    "nodemon": "^2.0.16"
+  }
+}
