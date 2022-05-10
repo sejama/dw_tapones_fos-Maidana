@@ -1,5 +1,5 @@
 html {
-  text-align: center; }
+  text-align: justify; }
 
 body {
   background-color: #015095;
@@ -58,6 +58,12 @@ img {
 .navbar-light .navbar-nav .nav-link, h1, h2, h3, h4, p, li, footer, label, th, td, u {
   color: #CDD0D2; }
 
+h4 {
+  margin-top: 1.5rem; }
+
+li {
+  list-style: none; }
+
 .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show > .nav-link {
   color: white; }
 
@@ -65,9 +71,20 @@ img {
   background-color: #015095;
   color: #CDD0D2; }
 
+.list-group-item {
+  border: 0;
+  border-radius: 0.25rem; }
+
 .accordion-button:not(.collapsed) {
   color: #0c63e4;
   background-color: #015095; }
+
+.accordion-button:focus {
+  color: #0c63e4; }
+
+.list-group-item-action:focus, .list-group-item-action:hover {
+  color: #CDD0D2;
+  background-color: #0c63e4; }
 
 .btn-primary {
   color: #CDD0D2; }
@@ -93,3 +110,6 @@ img {
 
 .w-100 {
   margin: 1rem 0 1rem 0; }
+
+.texto {
+  text-align: justify; }
