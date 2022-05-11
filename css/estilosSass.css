@@ -116,3 +116,11 @@ li {
 
 .navbar-toggler {
   margin-top: 0.4rem; }
+
+.carousel-inner {
+  max-width: 800px;
+  height: auto;
+  margin: auto; }
+
+.carouser.slide {
+  align-content: center; }
