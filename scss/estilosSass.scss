@@ -60,6 +60,12 @@ img{
 .navbar-light .navbar-nav .nav-link, h1, h2, h3, h4, p, li, footer, label, th, td, u{
     color: $letra_color;
 }
+.navbar-light .navbar-nav {
+    .nav-link.active, .show>.nav-link{
+        color: $active;
+    }
+}
+
 h4{
     margin-top: 1.5rem;
 }
@@ -67,11 +73,7 @@ li{
     list-style: none;
 }
 
-.navbar-light .navbar-nav {
-    .nav-link.active, .show>.nav-link{
-        color: $active;
-    }
-}
+
 .list-group-item, .accordion-button, .accordion-button:focus, .accordion-body{
     background-color: $fondo_color;
     color: $letra_color;

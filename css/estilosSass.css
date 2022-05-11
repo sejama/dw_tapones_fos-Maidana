@@ -58,14 +58,14 @@ img {
 .navbar-light .navbar-nav .nav-link, h1, h2, h3, h4, p, li, footer, label, th, td, u {
   color: #CDD0D2; }
 
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show > .nav-link {
+  color: white; }
+
 h4 {
   margin-top: 1.5rem; }
 
 li {
   list-style: none; }
-
-.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show > .nav-link {
-  color: white; }
 
 .list-group-item, .accordion-button, .accordion-button:focus, .accordion-body {
   background-color: #015095;
