@@ -65,15 +65,15 @@ img{
         color: $active;
     }
 }
-
+.navbar-toggler{
+    margin-top: 0.4rem;
+}
 h4{
     margin-top: 1.5rem;
 }
 li{
     list-style: none;
 }
-
-
 .list-group-item, .accordion-button, .accordion-button:focus, .accordion-body{
     background-color: $fondo_color;
     color: $letra_color;
@@ -96,7 +96,6 @@ li{
 .btn-primary{
     color: $letra_color;
 }
-
 .mb-3 {
     text-align: initial;
 }
@@ -125,9 +124,6 @@ li{
 }
 .texto{
     text-align: justify;
-}
-.navbar-toggler{
-    margin-top: 0.4rem;
 }
 .carousel-inner{
     max-width:800px;
