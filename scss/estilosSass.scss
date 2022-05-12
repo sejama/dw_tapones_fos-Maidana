@@ -99,8 +99,10 @@ li{
 .mb-3 {
     text-align: initial;
 }
-.card-body{
+.card.card-body{
     background-color:$fondo_color;
+    margin-bottom: 1rem;
+    overflow-x: auto;
 }
 
 @media (max-width: 767px) {
@@ -116,9 +118,7 @@ li{
       display: none;
     }
 }
-.card.card-body {
-    overflow-x: auto;
-}
+
 .w-100 {
     margin: 1rem 0 1rem 0;
 }
