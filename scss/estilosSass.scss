@@ -92,9 +92,15 @@ li{
 .list-group-item-action:focus, .list-group-item-action:hover{
     color: $letra_color;
     background-color: $color_resaltado;
+    margin: 0.2rem 0 0.2rem 0;
+    padding: 0.2rem 0 0.2rem 0;
+}
+.list-group-item+.list-group-item.active {
+    margin-top: 0.1rem;
 }
 .btn-primary{
     color: $letra_color;
+    margin: 0.5rem 0 0.5rem 0;
 }
 .mb-3 {
     text-align: initial;
@@ -132,4 +138,13 @@ li{
 }
 .carouser.slide{
     align-content: center;
+}
+.botones{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+}
+.pie{
+    margin: 0;
 }
